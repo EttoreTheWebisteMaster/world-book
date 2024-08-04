@@ -8,7 +8,7 @@ export async function GET(request: Request) {
 
 	try {
 		if (!username || !password) throw new Error('Username and password required');
-		await sql`INSERT INTO users (username, password, tokens) VALUES (${username}, ${password}, 10);`;
+		await sql`INSERT INTO users (username, password, tokens) VALUES (${username}, ${password}, 12);`;
 	} catch (error) {
 		return NextResponse.json({ error }, { status: 500 });
 	}
