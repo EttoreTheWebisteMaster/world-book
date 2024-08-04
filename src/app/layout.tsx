@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Container } from "@mui/material";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "World's Book",
-  description: "A book written by everyone in the world",
+	title: "World's Book",
+	description: "A book written by everyone in the world",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				<Container>{children}</Container>
+			</body>
+		</html>
+	);
 }
