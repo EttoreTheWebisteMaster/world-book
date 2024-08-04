@@ -5,7 +5,7 @@ export default function login() {
         <>
             <br /><br />
             <Box display="flex" flexDirection="column" alignItems="center" textAlign='center'>
-                <Typography variant="h5">Welcome to "The World's Book" – where every voice shapes the story!</Typography>
+                <Typography variant="h5">Welcome to "The World's Book" where every voice shapes the story!</Typography>
                 <Typography>We're thrilled to have you join this unique, global writing adventure. Before you dive into crafting your literary masterpiece, here are a few simple rules to guide you:</Typography>
                 <br />
                 <Typography variant="h6"><b>Your Creative Currency: Writer's Tokens</b></Typography>
@@ -20,7 +20,7 @@ export default function login() {
                 <br />
                 <Typography>
                     This is your space to write, imagine, and collaborate with a global community of storytellers.
-                    Embrace the unexpected twists and turns – every contribution adds to the richness of our collective tale.
+                    Embrace the unexpected twists and turns every contribution adds to the richness of our collective tale.
                     <br /><br />
                     We can’t wait to see the stories you'll help create. Let your imagination run wild and enjoy the journey of "The World's Book"!
                 </Typography>
