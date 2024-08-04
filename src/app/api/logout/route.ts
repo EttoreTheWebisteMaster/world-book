@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers'
 
-export async function POST(request: Request) {
+export async function GET(request: Request) {
     try {
         cookies().delete('currentUser');
         cookies().delete('tokens');

@@ -6,7 +6,7 @@ export default function LogOutButton() {
     let currentUser = cookies().get('currentUser')?.value;
 
     return (
-        <form action="/api/logout" method="post" style={{
+        <form action="/api/logout" method="get" style={{
             display: 'flex',
             alignItems: 'center',
             paddingLeft: '12px'
