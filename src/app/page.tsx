@@ -1,7 +1,6 @@
 import { cookies } from "next/headers";
 import styles from "./page.module.css";
 import { redirect } from 'next/navigation';
-import { Box, Typography } from "@mui/material";
 import Navbar from "./components/navbar/Navbar";
 import ParagraphsList from "./components/paragraphs/ParagraphsList";
 import InputText from "./components/input/InputText";
@@ -26,10 +25,7 @@ export default function Home() {
 
 	return (
 		<>
-			<Box sx={{ padding: '50px 100px 150px' }}>
-				<Typography variant="h4" textAlign='center'>The World's Book</Typography>
-				<ParagraphsList />
-			</Box>
+			<ParagraphsList />
 			{input}
 			<Navbar />
 		</>
