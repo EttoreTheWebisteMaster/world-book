@@ -16,7 +16,7 @@ export async function POST(request: Request) {
             cookies().set('userId', user?.rows[0].id);
             cookies().set('currentUser', username);
             cookies().set('tokens', user?.rows[0].tokens);
-            return NextResponse.redirect(new URL('/', request.url));
+            return NextResponse.redirect(new URL('/welcome', request.url));
         } else {
             return NextResponse.json({ error: 'Invalid credentials' }, { status: 500 });
         }

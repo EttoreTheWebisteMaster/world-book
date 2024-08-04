@@ -20,7 +20,7 @@ export async function POST(request: Request) {
         cookies().set('currentUser', username);
         cookies().set('tokens', user?.rows[0].tokens);
 
-        return NextResponse.redirect(new URL('/welcome', request.url));
+        return NextResponse.redirect(new URL('/login', request.url));
     } catch (error) {
         return NextResponse.json({ error }, { status: 500 });
     }
