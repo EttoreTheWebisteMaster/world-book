@@ -3,15 +3,15 @@ import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 
 export async function POST(request: Request) {
-    const username = cookies().get('currentUser')?.value;
+    const id = cookies().get('userId')?.value;
     
     try {
-        const user = await sql`SELECT * FROM users WHERE username = ${username};`;
+        const user = await sql`SELECT * FROM users WHERE id = ${id};`;
 
         if (user.rows.length > 0) {
             const tokens = user?.rows[0].tokens + 10;
 
-            await sql`UPDATE users SET tokens = ${tokens} WHERE username = ${username};`;
+            await sql`UPDATE users SET tokens = ${tokens} WHERE id = ${id};`;
             cookies().set('tokens', tokens);
             return NextResponse.redirect(new URL('/', request.url));
         } else {

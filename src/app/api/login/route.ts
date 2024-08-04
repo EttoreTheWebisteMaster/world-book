@@ -13,6 +13,7 @@ export async function POST(request: Request) {
         const user = await sql`SELECT * FROM users WHERE username = ${username} AND password = ${password};`;
 
         if (user.rows.length > 0) {
+            cookies().set('userId', user?.rows[0].id);
             cookies().set('currentUser', username);
             cookies().set('tokens', user?.rows[0].tokens);
             return NextResponse.redirect(new URL('/', request.url));
