@@ -4,7 +4,6 @@ export default function login() {
     return (
         <>
             <form action="/api/login" method="post">
-                <br /><br />
                 <Box display="flex" flexDirection="column" alignItems="center">
                     <Typography variant="h5">Login</Typography>
                     <TextField label="Username" variant="standard" name="username" />

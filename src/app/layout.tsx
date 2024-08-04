@@ -1,11 +1,15 @@
-import type { Metadata } from "next";
-import { Box, Container, Typography } from "@mui/material";
+'use client'
+import { Box, Container } from "@mui/material";
 import "./globals.css";
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-export const metadata: Metadata = {
-	title: "World's Book",
-	description: "A book written by everyone in the world",
-};
+const theme = createTheme({
+	palette: {
+		primary: {
+			main: '#000',
+		},
+	},
+});
 
 export default function RootLayout({
 	children,
@@ -15,14 +19,16 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<Container>
-					<Box sx={{ padding: '12px 100px 150px' }}>
-						<Box display='flex' justifyContent='center'>
-							<img src="/the-worlds-book.png" height='200px'/>
+				<ThemeProvider theme={theme}>
+					<Container>
+						<Box sx={{ padding: '12px 100px 150px' }}>
+							<Box display='flex' justifyContent='center'>
+								<img src="/the-worlds-book.png" height='200px' />
+							</Box>
+							{children}
 						</Box>
-						{children}
-					</Box>
-				</Container>
+					</Container>
+				</ThemeProvider>
 			</body>
 		</html>
 	);
