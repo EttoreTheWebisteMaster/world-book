@@ -16,10 +16,11 @@ Welcome to **The World's Book** – a unique and collaborative storytelling plat
     - [Creating New Chapters](#creating-new-chapters)
     - [Buying Tokens](#buying-tokens)
 3. [Technologies Used](#technologies-used)
-4. [Getting Started](#getting-started)
-5. [Community Guidelines](#community-guidelines)
-6. [Contributing](#contributing)
-7. [Contact](#contact)
+4. [Project structure](#project-structure)
+5. [Getting Started](#getting-started)
+6. [Community Guidelines](#community-guidelines)
+7. [Contributing](#contributing)
+8. [Contact](#contact)
 
 ## Introduction
 
@@ -55,6 +56,14 @@ If you run out of tokens, you can purchase an additional 10 tokens to continue c
 ## Technologies Used
 
 "The World's Book" leverages modern technologies to provide a seamless and engaging user experience. For the frontend, I used **React** with **Next.js**, which allows me to create a dynamic and responsive interface that enhances your storytelling experience. The platform is hosted on **Vercel**, providing fast and reliable performance. For data storage and management, I use **PostgreSQL**, ensuring that all contributions and user interactions are securely and efficiently handled.
+
+## Project structure
+
+The Next.JS project contains several folders:
+- **/app:** Contains all the code and folders
+- **/app/(login):** Contains the register, login and logout functionalities
+- **/app/components:** Contains all the React components used for the project. Divided in **/navbar**, **/input** and **/paragraphs**
+- **/app/api:** Contains the connection to the database with all the backend functionalities
 
 ## Getting Started
 
