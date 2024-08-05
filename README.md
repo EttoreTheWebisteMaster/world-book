@@ -66,6 +66,16 @@ The Next.JS project contains several folders:
 - **/app/components:** Contains all the React components used for the project. Divided in **/navbar**, **/input** and **/paragraphs**
 - **/app/api:** Contains the connection to the database with all the backend functionalities
 
+To start the project run
+
+```bash
+npm i
+```
+
+```bash
+npm run dev
+```
+
 ## Getting Started
 
 1. **Register an Account:** Sign up on "The World's Book" to receive your initial 12 Writer's Tokens.
