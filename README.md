@@ -1,5 +1,6 @@
 # The World's Book
-##### Created by Ettore Serra on 04/07/2024, Italy (TO)
+##### Created by Ettore Serra on 04/08/2024, Italy (TO)
+###### Youtube: [Video Demo](https://youtu.be/CcEvowTGhho)
 ###### Github: [EttoreTheWebisteMaster](https://github.com/EttoreTheWebisteMaster)
 ###### edX: ettore_serra
 #
@@ -19,7 +20,6 @@ Welcome to **The World's Book** – a unique and collaborative storytelling plat
 5. [Community Guidelines](#community-guidelines)
 6. [Contributing](#contributing)
 7. [Contact](#contact)
-8. [License](#license)
 
 ## Introduction
 
@@ -84,10 +84,6 @@ To ensure a positive and collaborative environment, please adhere to the followi
 ## Contact
 
 If you have any questions, suggestions, or need support, please contact me at [serra.ettore.es@gmail.com](mailto:serra.ettore.es@gmail.com). I’m here to help and always looking for ways to improve the platform.
-
-## License
-
-"The World's Book" is an open-source project licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the project as long as you adhere to the terms of the license.
 
 ---
 
