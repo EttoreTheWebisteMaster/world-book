@@ -1,8 +1,9 @@
 # The World's Book
 ##### Created by Ettore Serra on 04/08/2024, Italy (TO)
 ###### Youtube: [Video Demo](https://youtu.be/CcEvowTGhho)
-###### Github: [EttoreTheWebisteMaster](https://github.com/EttoreTheWebisteMaster)
 ###### edX: ettore_serra
+###### Github Profile: [EttoreTheWebisteMaster](https://github.com/EttoreTheWebisteMaster)
+###### Github Project Repository: [The World's Book](https://github.com/EttoreTheWebisteMaster/world-book)
 #
 Welcome to **The World's Book** – a unique and collaborative storytelling platform where everyone can contribute to writing a global book. This project aims to bring together creative minds from all over the world, allowing them to collectively build a narrative one paragraph or chapter at a time. Whether you're a seasoned writer or just someone who loves to tell stories, this platform is for you. Dive in, share your ideas, and watch as the world's most collaborative book comes to life.
 
